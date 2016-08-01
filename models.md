@@ -2,13 +2,13 @@
 
 ## User Data
 
-# Critical Attributes
+### Critical Attributes
 * Last name
 * First name
 * Primary Contact number
 * Primary Contact number type
 
-# Non-critical Attributes
+### Non-critical Attributes
 * Street address
 * Secondary Contact number
 * Secondary Contact number type
@@ -17,7 +17,7 @@
 * Email address
 * Insurance provider
 
-# Visit information
+### Visit information
 * Arrival time (pulled from clock)
 * Appointment/walk-in
 * Appointment time
