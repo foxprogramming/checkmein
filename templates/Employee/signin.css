@@ -1,9 +1,14 @@
 body {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #0aa;
+  background-color: #ccc;
 }
-
+.frame {
+  max-width: 370px;
+  border-width: 5px;
+  border-style: groove;
+  margin: 0 auto;
+}
 .signin {
   max-width: 350px;
   padding: 15px;
@@ -29,7 +34,7 @@ body {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.signin input[type="password"] {
+.signin input[type="Password"] {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
