@@ -40,3 +40,31 @@
 * Simple confirmation screen that information has been submitted correctly and to take a seat
 * Provide button to return to Initial Screen
 * Automatic and hidden countdown timer will automatically return to Initial Screen after set interval
+
+## Admin Views
+
+### Login Page
+* Text Boxes for Username and Password
+* Shared login page for both employee and superusers
+* HIPAA Warning
+
+### Main Page - Employee
+* List of checked in patients by check in time
+* Each patient has Last Name and First Initial along with Check-in time and appointment time (if applicable) along with Doctor's Name, new patient flag, and appointment/walk-in classification
+* Patients are automatically sorted by check-in time
+* Row is highlighted upon completion of Check-in
+* Detail button listed beside each patients check in row, action causes pop up window for DETAIL PAGE
+* Include button to automatically verify earliest check-in that has not been verified for ease of use
+* If accessibility option has been togged by patient check-in, an alert message is to be displayed that is easily visible but does not impede the functionality of the rest of the page
+* Logoff button required
+* No activity for set time returns page to login screen
+
+### Detail Page
+* Pop-up screen with all information for each patient
+* Information includes all critical and non-critical information as noted above
+* Any information that differs from records will be automatically highlighted along with alert
+* If primary contact number does not match patient database, verify whether patient is a new patient or needs to update contact info
+* If updating primary contact number, provide new field for old primary contact number
+* Upon verification or correction of information, employee presses check-in button to complete check-in process
+* Window is closed and patient's row becomes highlighted
+* No activity for set time automatically closes window
