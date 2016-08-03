@@ -4,7 +4,7 @@
 
 #### User Management Interface.
 
-As a superuser I will need to see the checked in patients in a chronologically descending order.
+As an employee I will need to see the checked in patients in a chronologically descending order.
 (would like this to be an interactive bubble that expands to display data collected from patient check-in.)
 
 
@@ -24,7 +24,7 @@ that includes all pertinent data gathered on the patient check-in terminal.
 
 #### Encounter Management Interface ####
 
-As a superuser I should be able to manipulate data that may have been entered incorrectly
+As a employee I should be able to manipulate data that may have been entered incorrectly
 or to assist a blind or otherwise disabled person.
 
 **Acceptance criteria**
