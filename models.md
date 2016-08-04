@@ -5,7 +5,7 @@
 ### Critical Attributes
 * Last name
 * First name
-* Primary Contact number
+* Primary Contact number (patient identifier)
 * Primary Contact number type
 
 ### Non-critical Attributes
@@ -26,3 +26,5 @@
 * Reason for visit / summary of conditions
 
 ## Admin Data
+* Employee ID
+* Employee Password
