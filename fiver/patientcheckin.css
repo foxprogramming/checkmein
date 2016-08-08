@@ -1,0 +1,85 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ccc;
+}
+.h2 {
+  text-align: center;
+  color: blue
+}
+p {
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.frame {
+  max-width: 370px;
+  border-width: 5px;
+  border-style: groove;
+  margin: 0 auto;
+}
+.signin {
+  max-width: 350px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.signin .signin-heading {
+  margin-bottom: 10px;
+}
+.signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.signin .form-control:focus {
+  z-index: 2;
+}
+.signin input[type="ID"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.signin input[type="Password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 0px;
+  margin-bottom: -15px;
+  background-color: #ddd;
+  border: 1px solid #000;
+}
+#detail1 {
+  -webkit-box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+  box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+  background-color: #ccc;
+}
+.detail {
+  display: none;
+  position: fixed;
+  opacity: 5%;
+  padding: 10px;
+  width: 90%;
+  left: 5%;
+  height: 50%;
+  top: 5%;
+  background #aaa;
+}
+.welcomebutton {
+  font-size: 200
+}
