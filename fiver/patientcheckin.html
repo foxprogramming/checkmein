@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="patientcheckin.css" >
+  </head>
+<body>
+  <h2 class="h2 signin-heading">Patient Check-in</h2>
+  <div class="container">
+    <form class="signin">
+      <body> Please fill out all fields </body>
+        <label for="inputID" class="sr-only">First Name</label>
+        <input type="ID" id="inputID" class="form-control" placeholder="First Name" required autofocus>
+        <label for="inputID" class="sr-only">Last Name</label>
+        <input type="ID" id="Last Name" class="form-control" placeholder="Last Name" required autofocus>
+          Date of Birth:<div>
+          <input type="date" name="Date of birth" class="form-control">
+        </form>
+        <div>
+        <form>
+          <input type="radio" name="gender" value="male"> Male
+          <input type="radio" name="gender" value="female"> Female
+        </form>
+        <form>
+          Please provide a primary contact number:<br>
+          <input type="tel" name="primarycontact" class="form-control" placeholder="123-456-7890" required autofocus>
+        </form>
+        <select name="phones">
+          <option value="Home">Home</option>
+          <option value="Cell">Cell</option>
+          <option value="Work">Work</option>
+        </select>
+        </form>
+            <div>
+          Pleae provide a secondary contact nubmer:<br>
+          <input type="tel" name="secondarycontact" class="form-control" placeholder="123-456-7890" required autofocus>
+        </form>
+        <select name="phones">
+          <option value="Home">Home</option>
+          <option value="Cell">Cell</option>
+          <option value="Work">Work</option>
+        </select>
+          <div>
+        <form>
+          Primary E-mail:<br>
+          <input type="email" name="email" class="form-control" placeholder="Someone@Somewhere.com"
+        </form>
+        </form>
+          <button type="button" onclick="alert('Success')">Submit Information</button>
+        </form>
+    </div>
+</html>
